@@ -1,13 +1,13 @@
 package cn.hl.threadlearn.demo1;
 
 /**
- * 依次输出数字和字符
+ * 写两个线程依次输出数字和字符
  * 数字为1-52,字符为A-Z
  * 输出形如:
  * 12A34B56C78D910E1112F1314G1516H1718I1920J2122K2324L2526M2728N2930O3132P3334Q3536R3738S3940T4142U4344V4546W4748X4950Y5152Z
  * @author HULIN
  */
-public class ThreadTest {
+public class PrinterTest {
 
 	public static void main(String[] args) {
 		Integer[] nums = new Integer[52];

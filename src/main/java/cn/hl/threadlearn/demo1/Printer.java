@@ -11,6 +11,7 @@ public class Printer{
 
 	private ThreadLocal<Integer> index = new ThreadLocal<Integer>();
 	
+	//flag初始为true,先输出数字
 	private boolean flag = true;
 	
 	private final Lock lock = new ReentrantLock();
